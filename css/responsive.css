@@ -15,5 +15,24 @@
     display: block;
     
 }
+.header-navbar{
+    flex-direction: column;
+}
+.nav-bar>ul>a>li{
+    font-size: 15px;
+    
+
+}
+.user-area{
+    flex-direction: column;
+    margin:10px;
+}
+.search-fild input{
+    width: 200px;
+    font-size: 12px;
+}
+.user-icon{
+    margin-top: 10px;
+}
   
 }
