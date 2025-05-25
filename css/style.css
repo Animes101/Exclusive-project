@@ -6,3 +6,17 @@
   font-weight: 400;
   
 }
+
+/* Header Area Style */
+.header-top{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+.header-top-content h3{
+    color:#FAFAFA;
+    font-size: 14px;
+}
+.lang{
+    color:#FAFAFA;
+}
