@@ -1,0 +1,19 @@
+@media only screen and (max-width: 576px) {
+
+    /* Header Area Style */
+    .header-top{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-top-content h3{
+   text-align: center;
+}
+.header-top-content a{
+    text-align: center;
+    display: block;
+    
+}
+  
+}

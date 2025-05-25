@@ -11,12 +11,37 @@
 .header-top{
     background-color: #000000;
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 .header-top-content h3{
     color:#FAFAFA;
     font-size: 14px;
+    display: inline-block;
+}
+.header-top-content h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header-top-content a button{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #FAFAFA;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    
 }
 .lang{
+    background-color: #000000;
+    color:#FAFAFA;
+    padding:5px;
+    border:none;
+    outline: none;
+}
+.lang option{
     color:#FAFAFA;
 }
