@@ -36,6 +36,7 @@
 }
 .banner-section{
     flex-direction: column;
+
 }
 .banner-nav{
     width: 100%;
@@ -43,11 +44,21 @@
 }
 .banner-slider{
     width: 100%;
+    flex-direction: column;
 }
-.banner-nav ul{
-    flex-direction:row;
 
-    gap:20px
+.slider-img{
+    width: 100%;
+}
+.slider-content{
+    width: 100%;
+    margin-bottom: 40px;
 }
   
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 576px){
+    
+
 }
