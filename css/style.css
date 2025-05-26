@@ -399,6 +399,18 @@
     background-repeat: no-repeat;
     height: 70vh;
 }
+.music-exp>button{
+    background-color:#DB4444;
+    padding:10px 20px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
 .music-exp p{
     color:#DB4444;
     font-size: 18px;
