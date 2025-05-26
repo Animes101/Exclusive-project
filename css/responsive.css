@@ -66,13 +66,40 @@
     grid-template-columns: repeat(1 ,1fr);
     
 }
+  /* Best Selling Products */
+.selings-products{
+    grid-template-columns: repeat(1 ,1fr);
+}
+
+.explore-products{
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+.arivals{
+    flex-direction: column;
+}
+.arival-1{
+    width: 100%;
+}
+.arival-2{
+    width: 100%;
+     flex-direction: row;
+    
+}
+.arival3{
+    height: 100%;
+}
+.arival-4{
+    height: 100%;
+    flex-direction: column;
+    
+}
 
 /* footer */
 .footer-areas{
     
     grid-template-columns: repeat(1 , 1fr);
  
-
 }
 
   
