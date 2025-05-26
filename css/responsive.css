@@ -54,6 +54,27 @@
     width: 100%;
     margin-bottom: 40px;
 }
+
+.products{
+    
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+/* catagoris */
+.categoris{
+    
+    grid-template-columns: repeat(1 ,1fr);
+    
+}
+
+/* footer */
+.footer-areas{
+    
+    grid-template-columns: repeat(1 , 1fr);
+ 
+
+}
+
   
 }
 

@@ -275,3 +275,95 @@
 .product-details h2{
     font-size: 20px;
 }
+.products-area>button{
+    background-color: #DB4444;
+    display: block;
+    width:200px;
+    margin: auto;
+    padding: 10px;
+    color:#FAFAFA;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* Categori Area style*/
+#catagori-section{
+    margin: 30px 0;
+}
+.categori-area>h1{
+    font-size: 18px;
+    color:#DB4444;
+    font-weight: bold;
+
+}
+.catagori-navigat-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin:20px 0;
+}
+.catagori-navigat-icon h1{
+    color:#000000;
+    font-size: 28px;
+    font-weight: bold;
+}
+.catagori-navigat-icon div i{
+    font-size: 30px;
+    margin-left: 30px;
+    padding:10px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+.categoris{
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.categori i{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 20px;
+    border: 2px solid #F5F5F5;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    
+}
+.categori p{
+    font-size: 18px;
+}
+.categori i:hover{
+    background-color: #DB4444;
+    color:#FAFAFA
+}
+#catagori-section hr{
+    margin: 30px 0;
+    
+}
+
+/* footer area style */
+.footer{
+    background-color: #000000;
+    color:#FAFAFA;
+}
+.footer-areas{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.footer-areas h1{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.footer-areas h3{
+    color:#DB4444
+}
