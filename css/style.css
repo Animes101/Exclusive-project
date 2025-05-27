@@ -510,6 +510,42 @@
     display: flex;
     gap:5px;
 }
+/* Service area */
+.service-area{
+    margin:50px 0;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+    border-radius: 5px;
+}
+.services div{
+    background-color: #F5F5F5;
+    padding:20px 10px;
+}
+.services div i{
+    font-size: 40px;
+    color:#000000;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+   
+}
+.services div h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+.services div p{
+    font-size: 18px;
+    text-align: center;
+    
+}
 /* footer area style */
 .footer{
     background-color: #000000;

@@ -1,3 +1,4 @@
+/* Small Screen viewport */
 @media only screen and (max-width: 576px) {
 
     /* Header Area Style */
@@ -92,6 +93,11 @@
 .arival-4{
     height: 100%;
     flex-direction: column;
+    
+}
+
+.services{ 
+    grid-template-columns: repeat(1 , 1fr);
     
 }
 
