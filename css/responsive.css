@@ -60,7 +60,33 @@
     
     grid-template-columns: repeat(1 , 1fr);
 }
+.times-items{
+    flex-direction: column;
+}
+.slider-time{
+    flex-direction: column;
 
+}
+.slider-icon i{
+    margin:20px 0;
+}
+.music-ext-time{
+    flex-wrap: wrap;
+    
+}
+.music-ext-time div{
+    width:50px;
+    height:50px;
+    
+}
+.music-ext-time h2{
+    font-size: 12px;
+    
+}
+.music-exp>button{
+    margin-top: 30px;
+
+}
 /* catagoris */
 .categoris{
     
@@ -112,7 +138,142 @@
 }
 
 
-@media only screen and (min-width: 576px) and (max-width: 576px){
+@media only screen and (min-width: 576px) and (max-width: 992px){
+
+        /* Header Area Style */
+    .header-top{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-top-content h3{
+   text-align: center;
+}
+.header-top-content a{
+    text-align: center;
+    display: block;
+    
+}
+.header-navbar{
+    flex-direction: column;
+}
+.nav-bar>ul>a>li{
+    font-size: 15px;
+    
+
+}
+.user-area{
+    flex-direction: column;
+    margin:10px;
+}
+.search-fild input{
+    width: 200px;
+    font-size: 12px;
+}
+.user-icon{
+    margin-top: 10px;
+}
+.banner-section{
+    flex-direction: column;
+
+}
+.banner-nav{
+    width: 100%;
+
+}
+.banner-slider{
+    width: 100%;
+    flex-direction: column;
+}
+
+.slider-img{
+    width: 100%;
+}
+.slider-content{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.products{
+    
+    grid-template-columns: repeat(2, 1fr);
+}
+.times-items{
+    flex-direction: column;
+}
+.slider-time{
+    flex-direction: column;
+
+}
+.slider-icon i{
+    margin:20px 0;
+}
+.music-ext-time{
+    flex-wrap: wrap;
+    
+}
+.music-ext-time div{
+    width:50px;
+    height:50px;
+    
+}
+.music-ext-time h2{
+    font-size: 12px;
+    
+}
+.music-exp>button{
+    margin-top: 30px;
+
+}
+/* catagoris */
+.categoris{
+    
+    grid-template-columns: repeat(2 ,1fr);
+    
+}
+  /* Best Selling Products */
+.selings-products{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.explore-products{
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.arivals{
+    flex-direction: column;
+}
+.arival-1{
+    width: 100%;
+}
+.arival-2{
+    width: 100%;
+     flex-direction: row;
+    
+}
+.arival3{
+    height: 100%;
+}
+.arival-4{
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+.services{ 
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 400px;
+    
+}
+
+/* footer */
+.footer-areas{
+    
+    grid-template-columns: repeat(2 , 1fr);
+
+ 
+}
     
 
 }
