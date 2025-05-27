@@ -4,12 +4,10 @@
 *{  
   font-family: "Fresca", sans-serif;
   font-weight: 400;
+  margin: 0;
   
 }
-body{
-    margin: 0;
-    padding:0;
-}
+
 .container{
     width:90%;
     margin:auto;
